@@ -1,0 +1,23 @@
+.btn {
+  width: 100px;
+  height: 40px;
+  margin: 20px;
+  cursor: pointer;
+  background-color: rgb(60, 205, 171);
+  color: white;
+  border: none;
+
+  &--smaller {
+    width: 90px;
+    height: 30px;
+    margin: 5px;
+  }
+
+  &--blue {
+    background-color: rgb(120, 140, 199);
+  }
+
+  &--red {
+    background-color: rgb(255, 9, 115);
+  }
+}
